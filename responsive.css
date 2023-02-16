@@ -1,0 +1,94 @@
+@media (max-width: 84em) {
+  html {
+    font-size: 62.25%;
+  }
+
+  .header {
+    height: 72vh;
+  }
+
+}
+
+@media (max-width:59em) {
+  html {
+    font-size: 60%;
+  }
+
+  .header {
+    height: 62vh;
+  }
+
+  #email {
+    width: 40%;
+  }
+
+  .features {
+    display: block;
+    text-align: center;
+  }
+
+  .f-text-box {
+    padding: 3rem;
+    width: 100%;
+  }
+
+  .f-text-box-2 {
+    text-align: center;
+    padding: 3rem;
+    width: 100%;
+  }
+
+  .f-image {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:52em) {
+  .header {
+    height: 50vh;
+  }
+}
+
+@media (max-width:49em) {
+  .footer {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+  }
+}
+
+
+
+@media (max-width: 33em) {
+  html {
+    font-size: 50%;
+  }
+
+  .header {
+    height: 52vh;
+  }
+
+  #email {
+    width: 50%;
+  }
+
+  .f-image {
+    width: 60%;
+  }
+
+  .accordion {
+    width: 80%;
+  }
+
+}
+
+@media (max-width:24em) {
+  html {
+    font-size: 40%;
+  }
+
+  .header {
+    height: 62vh;
+  }
+
+}
